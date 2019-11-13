@@ -1,0 +1,64 @@
+/*
+	Theme Name: Awesome Theme
+	Theme URI: https://tanjirsdev.com/themes/awesome
+	Author: TANJIR
+	Author URI: https://tanjirsdev.com
+	Version: 2.0 delta
+	License: GNU General Public License v2 or later
+	Tags: black, while, featured-image, responsive, one-column, two-column, custom-menu, custom-header, post-formats
+*/
+
+html,
+body {
+	margin: 0;
+	color: #333;
+	background: #eee;
+	font-family: sans-serif;
+}
+
+body{
+	padding: 20px;
+}
+
+/* -- Carousel Styling -- */
+
+.carousel {background: #000;}
+.carousel .carousel-item { height: 350px; overflow: hidden; }
+.carousel .carousel-item img { width: 100%; height: auto;}
+.carousel a { color: #ef4987;}
+
+.blog-element {
+	display: block;
+	height: 200px;
+	overflow: hidden;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.blog-element a {
+	color: #f6f6f6;
+	line-height: 1.4;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+.second-row-padding:nth-child(2) {padding-right: 0px;}
+.second-row-padding:nth-child(3) {padding-left: 0px;}
+.third-row-padding {padding: 0;}
+.third-row-padding:nth-child(4){padding-left: 15px;}
+.third-row-padding:nth-child(6) {padding-right: 15px;}
+.third-row-padding:nth-child(7) {padding-left: 15px;}
+.third-row-padding:last-child {padding-right: 15px;}
+
+.no-margin {
+	margin: 0;
+}
+.blog-element {
+	padding: 0;
+}
+
+.search-form-container {
+	padding: 10px 0 10px 0;
+}
+
+header.page-header {
+    margin: auto;
+}
